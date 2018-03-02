@@ -1,0 +1,270 @@
+/****************************/
+/*	element level styling	*/
+/****************************/
+html {
+	
+	box-sizing:	border-box;
+}
+
+body {
+	
+	font:	1em "Montserrat", sans-serif;
+	color:	#2d3c49;
+}
+
+h1,
+h2,
+h3,
+p {
+	
+	margin:	0.25em;
+}
+
+h1 {
+	
+	font-size:	2em;
+}
+
+h2 {
+	
+	font-size:	1em;
+}
+
+h3 {
+	
+	font-size:	0.75em;
+}
+
+img {
+	
+	max-width:	100%;
+	object-fit:	contain;
+}
+
+a {
+	text-decoration:	none;
+	color:	#2d3c49;
+}
+
+/****************************/
+/*	class level styling		*/
+/****************************/
+.folioHead {
+	
+	display:	flex;
+	justify-content:	space-between;
+	align-items:	center;
+	padding-bottom:	0.25em;
+	border-bottom:	medium solid #7d97ad;
+	margin-bottom:	1em;
+}
+
+.myLogo {
+	
+	max-height:	3em;
+	width:	auto;
+	
+}
+
+.nameAndTitle {
+	
+	text-align:	right;
+}
+
+.folioContent {
+	
+	display:	flex;
+	flex-wrap:	wrap;
+	justify-content:	space-between;
+	align-items:	center;
+	padding-bottom:	0.25em;
+	border-bottom:	medium solid #7d97ad;
+	margin-bottom:	1em;
+}
+
+.mainImageBox {
+	
+	min-width:	100%;
+	flex:	0 0 100%;
+	overflow-y:	hidden;
+	margin-bottom:	1em;
+}
+
+.projectsLabel {
+	
+	min-width:	100%;
+	flex:	0 0 100%;
+	color:	#7d97ad;
+}
+
+.projectDesc {
+	
+	min-width:	30%;
+	max-width:	30%;
+	flex:	0 0 30%;
+	text-align:	right;
+}
+
+.projectImage {
+	
+	min-width:	65%;
+	flex:	0 0 65%;
+	margin-top:	0.5em;
+	margin-bottom:	0.5em;
+	overflow-y:	hidden;
+}
+
+.projLink {
+	
+	font-size:	0.75em;
+}
+
+.proj01Desc {
+	
+	order:	1;
+}
+
+.proj01Image {
+	
+	order:	2;
+}
+
+.proj02Desc {
+	
+	order:	3;
+}
+
+.proj02Image {
+	
+	order:	4;
+}
+
+.proj03Desc {
+	
+	order:	5;
+}
+
+.proj03Image {
+	
+	order:	6;
+}
+
+.finisMatter {
+	
+	font-size:	0.75em;
+	text-align:	right;
+}
+
+
+@media screen and (min-width: 500px)
+{
+
+	.projectDesc {
+	
+		min-width:	48%;
+		max-width:	48%;
+		flex:	0 0 48%;
+		text-align:	center;
+	}
+
+	.projectImage {
+	
+		min-width:	48%;
+		flex:	0 0 48%;
+		margin-top:	0.5em;
+		margin-bottom:	0.5em;
+		overflow-y:	hidden;
+	}
+
+	.proj01Desc {
+	
+		order:	3;
+	}
+
+	.proj01Image {
+	
+		order:	1;
+	}
+
+	.proj02Desc {
+	
+		order:	4;
+	}
+
+	.proj02Image {
+	
+		order:	2;
+	}
+
+	.proj03Desc {
+	
+		order:	5;
+		text-align:	right;
+	}
+
+	.proj03Image {
+	
+		order:	6;
+	}	
+}
+
+
+@media screen and (min-width: 800px)
+{
+	body {
+		
+		max-width:	800px;
+		margin-right:	auto;
+		margin-left:	auto;
+	}
+
+	.projectDesc {
+	
+		min-width:	256px;
+		max-width:	256px;
+		flex:	0 0 256px;
+		text-align:	center;
+	}
+
+	.projectImage {
+	
+		min-width:	256px;
+		flex:	0 0 256px;
+		margin-top:	0.5em;
+		margin-bottom:	0.5em;
+		overflow-y:	hidden;
+	}
+
+	.proj01Desc {
+	
+		order:	4;
+	}
+
+	.proj01Image {
+	
+		order:	1;
+	}
+
+	.proj02Desc {
+	
+		order:	5;
+	}
+
+	.proj02Image {
+	
+		order:	2;
+	}
+
+	.proj03Desc {
+	
+		order:	6;
+		text-align:	center;
+	}
+
+	.proj03Image {
+	
+		order:	3;
+	}	
+}
+
+
